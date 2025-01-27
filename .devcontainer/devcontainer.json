@@ -1,0 +1,19 @@
+{
+    "name": "Go Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "golang.go"
+        ]
+      }
+    },
+    "settings": {
+      "go.gopath": "/go",
+      "go.useLanguageServer": true
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "postCreateCommand": "go mod init Go-Tutorial-Project",
+  }
