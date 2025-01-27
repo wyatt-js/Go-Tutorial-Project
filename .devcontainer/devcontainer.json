@@ -12,8 +12,5 @@
       "go.gopath": "/go",
       "go.useLanguageServer": true
     },
-    "features": {
-      "ghcr.io/devcontainers/features/git:1": {}
-    },
     "postCreateCommand": "go mod init Go-Tutorial-Project",
   }
